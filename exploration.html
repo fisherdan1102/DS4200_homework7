@@ -1,0 +1,138 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Explore Tennis</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="interactivity.js"></script>
+    
+    <div id="header" class="header">
+        <a href="./index.html" class="container clickable" id="account-container">
+            <img src="tennis.png" width="50px">
+            <div id="name-container">Chuyu Dan</div>
+        </a>
+
+        <div class="container" id="title-container">
+            <h3>Explore Tennis</h3>
+        </div>
+
+        <div class="container" id="pages-container">
+            <a class="pages-btn clickable" href="./index.html">
+                Home
+            </a>
+            <a class="pages-btn clickable" href="https://www.atptour.com/">
+                ATP Tour
+            </a>
+            <a class="pages-btn clickable" href="https://www.wtatennis.com/">
+                WTA Tennis
+            </a>
+        </div>
+    </div>
+
+    
+    <div class="container body-container">
+
+        <div class="container content-container">
+            <div class="container content-title">
+                <h3>About Tennis</h3>
+            </div>
+
+            <div class="container content-body" style="flex-direction: column;">
+
+                <p style="margin: 10px;">
+                    Tennis is a popular sport played by millions of people
+                    around the world. It can be played between two players
+                    in singles or four players in doubles. The main goal
+                    is to hit the ball over the net and into the
+                    opponent's court. Players use rackets to hit the ball
+                    and try to win points by making shots that their
+                    opponents cannot return. Tennis is a sport that
+                    requires speed, coordination, concentration, and
+                    strategy. It is also a great form of exercise
+                    and can be enjoyed by people of different ages
+                    and skill levels.
+                </p>
+
+                <p style="margin: 10px;">
+                    One interesting part of tennis is that matches
+                    can be played on different court surfaces.
+                    The three main surfaces are hard courts, clay
+                    courts, and grass courts. Each surface affects
+                    how the ball moves and how players approach
+                    the game. Hard courts provide a relatively
+                    balanced playing experience, while clay courts
+                    usually produce slower rallies. Grass courts
+                    are often associated with faster play and
+                    lower ball bounces. Because of these differences,
+                    professional tennis players need to adjust
+                    their techniques and strategies depending
+                    on the tournament.
+                </p>
+
+                <p style="margin: 10px;">
+                    Professional tennis includes many tournaments
+                    throughout the year. The four Grand Slam
+                    tournaments are the Australian Open, French Open,
+                    Wimbledon, and US Open. These tournaments are
+                    among the most important events in professional
+                    tennis. They attract top players from around
+                    the world and provide exciting matches for fans.
+                    I enjoy watching professional tennis because
+                    different players have unique strengths and
+                    playing styles. Some players are known for
+                    powerful serves, while others are famous for
+                    their defensive skills and consistency.
+                    Learning about these differences makes
+                    watching tennis even more interesting.
+                </p>
+
+            </div>
+        </div>
+
+
+        <div class="container content-container">
+            <div class="container content-title">
+                <h3>Tennis Highlights</h3>
+            </div>
+
+            <div class="container content-body" style="flex-direction: column;">
+
+                <img src="tennis1.png" width="300px" style="margin: 10px;">
+
+                <h4>What Makes Tennis Interesting</h4>
+
+                <ul>
+                    <li>Singles and doubles matches</li>
+                    <li>Hard, clay, and grass courts</li>
+                    <li>Four Grand Slam tournaments</li>
+                    <li>Different player strategies</li>
+                    <li>Physical and mental challenges</li>
+                </ul>
+
+                    <h4>Grand Slam Tournaments by Court Surface</h4>
+
+                    <div id="in_class_walkthrough_viz"></div>
+                    <script>inClassExampleOfStaticAddD3VisToPage();</script>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    
+    <div id="footer" class="footer">
+        <div>
+            Homework 7 Part 1 | Contact: cdan1106@163.com
+        </div>
+    </div>
+</body>
+</html>
