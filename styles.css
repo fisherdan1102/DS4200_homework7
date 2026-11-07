@@ -157,3 +157,31 @@ th, td{
     margin: 5px;
     width: 400px;
 }
+
+/* Custom typography */
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+/* Custom color scheme */
+#header, #footer, .content-title {
+    background-color: #dce6ed;
+}
+
+.pages-btn, #account-container {
+    background-color: #fff4d6;
+}
+
+/* Custom layout */
+.content-container {
+    width: 42%;
+}
+
+.content-body p {
+    line-height: 1.3;
+}
+
